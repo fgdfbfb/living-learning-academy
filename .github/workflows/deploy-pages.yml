@@ -30,7 +30,7 @@ jobs:
       - name: Build the GitHub Pages site
         env:
           GITHUB_PAGES: "true"
-          NEXT_PUBLIC_BASE_PATH: /living-learning-academy
+          NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_INTEREST_ENDPOINT: https://living-learning-academy.daniel4freedom.chatgpt.site/api/interest
         run: |
           rm -rf app/api
