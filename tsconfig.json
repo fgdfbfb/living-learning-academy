@@ -32,16 +32,18 @@
       "@cloudflare/workers-types"
     ]
   },
-  "include": [
+    "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
+  ],
   "exclude": [
-  "node_modules",
-  "examples",
-  "vite.config.ts"
-]
+    "node_modules",
+    "examples",
+    "vite.config.ts"
+  ]
+}
 }
