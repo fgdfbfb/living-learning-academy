@@ -7,8 +7,8 @@ const copy: Record<Pathway, [string,string,string]> = {
 };
 const pathways = [
   ["parent","01","Public & homeschool parents","Be first to know — and first in line — for courses, Mini-Schools and events as they reach your area.","Join the waitlist",Users],
-  ["mentor","02","Mentors & alternative schools","Bring your knowledge, experience and principles to the next generation through mentorship and real-world learning.","Become a mentor",BookOpen],
-  ["community","03","Join our community","Connect with like-minded parents, grandparents, educators, mentors and young people with guardian permission.","Find your people",HeartHandshake],
+  ["mentor","02","Mentor training & Curriculum","Pass on your knowledge, expertise and truth to the next generation as a certified LLA mentor, or use our expert-led curriculum to tutor young people independently.","Become a mentor",BookOpen],
+  ["community","03","Join Our LLA Community","Sign up to connect with like-minded parents, mentors and educators, or teens can join our youth community with parent or guardian permission.","Find your people",HeartHandshake],
   ["volunteer","04","Volunteer or support","Help shape the courses, experiences and communities that will prepare the next generation for life.","Get involved",Sprout],
 ] as const;
 const climb = [["C","Character","Integrity & responsibility"],["L","Leadership","Courage, responsibility & action"],["I","Independent thinking","Questions, truth & discernment"],["M","Mastery of life skills","Knowledge into capability"],["B","Building impact","Strengthen community & serve"]];
