@@ -35,8 +35,8 @@ export default function Home(){
           _template:"table",_honey:data.website,source:window.location.origin}),
         signal:AbortSignal.timeout(30000)
       });
-      const result=await r.json();
-      if(!r.ok||(result.success!==true&&result.success!=="true"))throw new Error("Submission failed");
+      const result:unknown=await r.json();
+      if(!r.ok||!result||typeof result!=="object"||!("success" in result)||(result.success!==true&&result.success!=="true"))throw new Error("Submission failed");
       form.reset();
       setStatus("success");
     }catch{setStatus("error")}
