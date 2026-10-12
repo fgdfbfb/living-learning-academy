@@ -6,3 +6,50 @@
 /* Keep the hero headline lines comfortably separated. */
 .hero h1{line-height:1.1}
 .hero h1 em{display:block;margin-top:.08em}
+/* Refined Living Learning Academy design */
+:root {
+  --navy: #082f52;
+  --gold: #b78b3e;
+}
+
+.button {
+  border-radius: 3px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  box-shadow: 0 12px 28px #062b5026;
+}
+
+.section-heading h2,
+.why-section h2,
+.vision-copy h2,
+.community h2,
+.final-cta h2 {
+  text-wrap: balance;
+}
+
+.pathway {
+  transition: background-color 0.2s ease;
+}
+
+.pathway:hover {
+  background-color: #fbf7ef;
+}
+
+input,
+select,
+textarea {
+  border-radius: 4px;
+}
+
+@media (max-width: 680px) {
+  .hero-copy {
+    padding-top: 64px;
+    padding-bottom: 58px;
+  }
+
+  .hero-actions {
+    gap: 18px;
+  }
+}
